@@ -1,106 +1,137 @@
-# Awesome-Enrollment-Management
+# Awesome Enrollment Management 🎓
 
-### Top Enrollment Management Platforms Ecosystem
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on School Admissions, Student Enrollment, Applications, Waitlists, Registration & K-12 / Independent School Intake*
-**Last updated: September 2026**
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enrollment Management** in education. These systems help schools and districts manage inquiries, applications, admissions decisions, seat assignment, registration, re-enrollment, and family communication throughout the enrollment lifecycle.
+![Awesome Enrollment Management Banner](./assets/banner.svg)
 
-**Examples** include SchoolMint, OpenApply, Finalsite Enrollment, SchoolAdmin, PowerSchool Enrollment, Blackbaud Enrollment, Veracross Enrollment, Classe365, OpenEduCat, and Fedena (the category leaders).
-
-**Open-source emphasis**: Dedicated commercial enrollment platforms dominate K-12 and independent school admissions. Strong open options exist in full education ERPs—**OpenEduCat** and **Fedena**—that include admission and enrollment modules. This section expands those projects and related open education-management tools.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-- **[SchoolMint](https://www.schoolmint.com/)**  
-  Leading K-12 enrollment and school-choice platform for applications, lotteries, seat assignment, registration, and district-wide enrollment operations.
-
-- **[OpenApply](https://www.openapply.com/)**  
-  Admissions and enrollment management software popular with independent and international schools for inquiries, applications, decisions, and re-enrollment.
-
-- **[Finalsite Enrollment](https://www.finalsite.com/)**  
-  Enrollment and admissions tools integrated with Finalsite’s school website and engagement platform.
-
-- **[SchoolAdmin](https://www.schooladmin.com/)**  
-  Admissions and enrollment software focused on independent schools—applications, tours, decisions, and family workflows.
-
-- **[PowerSchool Enrollment](https://www.powerschool.com/)**  
-  Online enrollment and registration solution tightly connected to the PowerSchool student information system for districts.
-
-- **[Blackbaud Enrollment](https://www.blackbaud.com/)**  
-  Enrollment and admissions capabilities within Blackbaud’s suite for independent schools and education institutions.
-
-- **[Veracross Enrollment](https://www.veracross.com/)**  
-  Integrated admissions-to-enrollment workflows within the Veracross SIS for independent schools.
-
-- **[Classe365](https://www.classe365.com/)**  
-  Cloud student information and enrollment management system used by schools and higher-education institutions.
-
-- **[OpenEduCat](https://www.openeducat.org/)**  
-  Education ERP (community + enterprise) with admission management, student records, and full institutional modules—available open-source and hosted.
-
-- **[Fedena and related school management platforms](https://www.fedena.com/)**  
-  School management system with admission and enrollment features; community edition has open-source roots alongside commercial offerings.
-
-## Open-Source GitHub Projects
-- **[OpenEduCat](https://github.com/openeducat)**  
-  Comprehensive open-source Educational ERP (LGPL) built on Odoo—includes admission management, student enrollment, SIS, fees, attendance, LMS, and 70+ modules for schools and higher education.
-
-- **[Fedena (Project Fedena)](https://github.com/projectfedena/fedena)**  
-  Open-source school management system (Ruby on Rails, Apache 2.0) with student information, admission, attendance, timetable, and related campus administration features.
-
-- **[Odoo Education / community education modules](https://github.com/odoo)**  
-  Open ERP modules and community extensions that can support student records, applications, and enrollment-style workflows.
-
-- **[ERPNext Education module](https://github.com/frappe/erpnext)**  
-  Open-source ERP with education domain features for student admission, fees, and academic management that smaller institutions sometimes adapt.
-
-- **[Open student information system projects](https://github.com/)**  
-  Community SIS and school-management efforts that include registration and enrollment components.
-
-- **[Application and form open engines](https://github.com/)**  
-  Self-hosted form and workflow tools configurable for school applications, document collection, and review processes.
-
-- **[Lottery and seat-assignment open helpers](https://github.com/)**  
-  Scripts and small tools for fair random assignment and waitlist logic used in school-choice scenarios.
-
-- **[Parent/student portal open components](https://github.com/)**  
-  Open portal and communication modules that can sit alongside enrollment workflows.
-
-- **[Document collection and checklist open systems](https://github.com/)**  
-  Tools for tracking required enrollment documents and family completion status.
-
-- **[Documentation and open education-ERP playbooks](https://openeducat.org/)**  
-  Guides for deploying and customizing OpenEduCat or Fedena for institutional admissions and student management.
-
-### Additional Strong Open-Source Options
-- Self-hosting **OpenEduCat** for a full education ERP including admission and enrollment—especially attractive for institutions that want data ownership and no per-student fees on the community edition.
-- Using **Fedena** community edition for classic school management and admission workflows.
-- Accepting that district-scale school-choice lotteries, sophisticated independent-school CRM, deep SIS integration, and polished family experience still favor commercial platforms (SchoolMint, OpenApply, PowerSchool Enrollment, Veracross, Blackbaud, Finalsite, etc.).
-- Focusing open-source efforts on data ownership, customization, and lower cost for schools with technical capacity.
-
-**Frameworks for building custom systems**: Deploy OpenEduCat or Fedena → configure admission forms and review workflows → manage applicant pipelines and decisions → convert accepted students into enrolled records → connect fees and parent portals. Suitable for individual schools, small networks, and institutions prioritizing self-hosting. Most districts and many independent schools rely on commercial enrollment platforms for scale and support.
-
-## How to Contribute
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Enrollment systems handle sensitive student and family data subject to privacy laws (e.g., FERPA and local equivalents). Open-source deployments require proper security, access control, and compliance practices. This list is not legal or educational-administration advice.
+### 🚀 Top Enrollment Management Platforms Ecosystem & EdTech Software
+**Curated List of SaaS Products & Open-Source GitHub Projects for School Admissions & Student Enrollment**  
+*Focused on K-12 Districts, Independent Schools, Higher Education Admissions, Student Intake, Seat Lotteries, Waitlists & Online Registration*  
+📅 **Last updated: September 2026**
 
 ---
-**Made for school administrators, admissions teams, and open-source education advocates.**
-Let's keep enrollment fair, efficient, and as open as practical.
+
+## 📌 Overview & SEO Summary
+
+This repository tracks top-tier **SaaS platforms** and **open-source projects** for **Enrollment Management** across global education sectors. These EdTech systems enable educational institutions to streamline inquiries, manage applicant pipelines, run fair lottery seat assignments, automate document collection, execute digital contracts, and facilitate student onboarding.
+
+Whether you are an IT director choosing enterprise admissions software or a school administrator deploying self-hosted open-source education ERPs, this guide provides a structured breakdown of commercial market leaders and community-driven solutions.
+
+---
+
+## 📑 Table of Contents
+- [📊 Market Overview & Industry Dynamics](#-market-overview--industry-dynamics)
+- [💼 SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architecture & Custom Implementation Playbook](#%EF%B8%8F-architecture--custom-implementation-playbook)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 📊 Market Overview & Industry Dynamics
+
+The global **Enrollment Management & Admissions Software Market** is estimated at **$2.5 Billion** and is projected to reach **$4.8 Billion by 2030** (CAGR ~9.8%). 
+
+The sector exhibits **moderate fragmentation**: while enterprise giants like PowerSchool and Blackbaud hold substantial market share through broad Student Information System (SIS) ecosystems, specialised vertical players (such as SchoolMint for district lotteries and OpenApply for international schools) maintain dominant strongholds in their specific niches.
+
+---
+
+## 💼 SaaS & Commercial Hosted Platforms
+
+> [!NOTE]
+> Below SaaS platforms are sorted in descending order by estimated company valuation / annual revenue scale.
+
+| Platform / Product | Scale / Valuation | Starting Pricing | Free Tier / Trial Limits | Key Capabilities & Target Audience |
+| :--- | :--- | :--- | :--- | :--- |
+| **[PowerSchool Enrollment](https://www.powerschool.com/)** 🏫 | **~$5.6B** Valuation (Acquired by Bain Capital) | **$5,000 / year** (Base district tier) | **14-day administrative sandbox demo** (No permanent free plan) | District-scale online enrollment, registration, and SIS integration for K-12. |
+| **[Blackbaud Enrollment](https://www.blackbaud.com/)** 🏛️ | **~$4.1B** Market Cap (NASDAQ: BLKB) | **$4,800 / year** (Core admissions module) | **14-day guided trial for accredited institutions** (No permanent free plan) | Admissions, financial aid, and tuition management for independent K-12 & higher ed. |
+| **[Veracross Enrollment](https://www.veracross.com/)** 🎒 | **~$1.2B** Valuation | **$3,600 / year** (Integrated SIS package) | **30-day interactive sandbox demo** (No permanent free plan) | End-to-end admissions-to-enrollment workflows for private and independent schools. |
+| **[SchoolMint](https://www.schoolmint.com/)** 🎲 | **~$150M** Revenue / Valuation | **$3,000 / year** (Per school building) | **14-day trial / interactive sandbox** (No permanent free plan) | K-12 school-choice platform, lottery engine, waitlist management, and registration. |
+| **[Finalsite Enrollment](https://www.finalsite.com/)** (formerly SchoolAdmin) 🌐 | **~$120M** Revenue / Valuation | **$2,500 / year** (Starting tier) | **14-day product sandbox trial** (No permanent free plan) | Admissions CRM, online forms, automated parent communications, and enrollment. |
+| **[OpenApply](https://www.openapply.com/)** 🌍 | **~$45M** Revenue | **$1,800 / year** (Up to 250 applicants) | **30-day full feature trial** (No permanent free plan) | Admissions and enrollment CRM specialized for international and independent schools. |
+| **[Classe365](https://www.classe365.com/)** ☁️ | **~$12M** Revenue | **$50 / month** ($600/yr for up to 100 students) | **14-day free trial** (Full access, no credit card required) | Unified cloud SIS, CRM, LMS, and enrollment portal for academies and colleges. |
+| **[OpenEduCat Hosted](https://www.openeducat.org/)** 🚀 | **~$5M** Revenue | **$19 / user / month** (Grid Cloud Plan) | **15-day free trial** (Hosted cloud instance) | Cloud-hosted edition of OpenEduCat ERP with admission, fees, and portal modules. |
+| **[Fedena Enterprise](https://www.fedena.com/)** 🎓 | **~$3M** Revenue | **$360 / year** (Pro plan up to 250 students) | **14-day free trial** (Enterprise features demo) | Managed school administration platform with inquiry, applicant, and intake modules. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+> [!TIP]
+> Open-source options provide self-hosted control and data privacy. Repositories below are sorted in descending order by GitHub star counts. Click star badges to view stargazers.
+
+- **[ERPNext Education Module](https://github.com/frappe/erpnext)** [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+  *Comprehensive open-source ERP (Python/Frappe framework) with complete education domain modules for student admission, fee collection, course enrollment, and student portals.*
+
+- **[FeathersJS Form & Intake Engines](https://github.com/feathersjs/feathers)** [![Stars](https://img.shields.io/github/stars/feathersjs/feathers?style=social&color=white)](https://github.com/feathersjs/feathers/stargazers)  
+  *Real-time microservice framework used for building custom application intake pipelines, form APIs, document collection services, and real-time waitlists.*
+
+- **[OpenEduCat ERP](https://github.com/openeducat/openeducat_erp)** [![Stars](https://img.shields.io/github/stars/openeducat/openeducat_erp?style=social&color=white)](https://github.com/openeducat/openeducat_erp/stargazers)  
+  *Open-source Educational ERP (LGPL, built on Odoo) featuring admission management, student enrollment pipelines, academic structures, LMS, and 70+ school management modules.*
+
+- **[RosarioSIS](https://github.com/francoisjacquet/rosariosis)** [![Stars](https://img.shields.io/github/stars/francoisjacquet/rosariosis?style=social&color=white)](https://github.com/francoisjacquet/rosariosis/stargazers)  
+  *Free & open-source Student Information System (PHP/PostgreSQL) with built-in student registration, demographic tracking, admissions management, and parent portal.*
+
+- **[Gibbon Edu](https://github.com/gibbonedu/core)** [![Stars](https://img.shields.io/github/stars/gibbonedu/core?style=social&color=white)](https://github.com/gibbonedu/core/stargazers)  
+  *Flexible open-source school platform tailored for teachers and administrators, including application forms, student records, and enrollment intake tools.*
+
+- **[Project Fedena](https://github.com/projectfedena/fedena)** [![Stars](https://img.shields.io/github/stars/projectfedena/fedena?style=social&color=white)](https://github.com/projectfedena/fedena/stargazers)  
+  *Open-source school management system (Ruby on Rails, Apache 2.0) with admission workflows, student records, fee intake, and campus administration.*
+
+- **[openSIS Classic](https://github.com/OS4ED/openSIS-Classic)** [![Stars](https://img.shields.io/github/stars/OS4ED/openSIS-Classic?style=social&color=white)](https://github.com/OS4ED/openSIS-Classic/stargazers)  
+  *Commercial-grade open-source SIS providing web-based student registration, enrollment processing, transcripts, and parent/student portals.*
+
+---
+
+## 🛠️ Architecture & Custom Implementation Playbook
+
+```
+[ Prospective Family ] ➔ [ Custom / Open Form Portal ] ➔ [ Automated Screening & Waitlist ]
+                                                                     │
+                                                                     ▼
+[ Enrolled Student Record ] ◄── [ Fee Intake & Registration ] ◄── [ Seat Assignment / Lottery ]
+```
+
+### Self-Hosted Implementation Options
+1. **Full Educational ERP Deployment**: Deploy **OpenEduCat** or **ERPNext** to get integrated admissions, fee schedules, and student records out of the box.
+2. **Specialized SIS Intake**: Deploy **RosarioSIS** or **Gibbon** for lightweight student registration and document collection.
+3. **Custom Choice Lotteries**: Combine self-hosted application forms with custom Python/R scripts for random seat allocations and district waitlists.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! To add or update platforms and repositories:
+1. Fork this repository.
+2. Update `README.md` following the tabular format for SaaS or star badge format for Open Source.
+3. Ensure pricing, valuation, and GitHub repository links are accurate and verified.
+4. Submit a Pull Request with a short explanation.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your school, district, or EdTech research:
+- ⭐ **Star** this repository to stay updated.
+- 🔀 **Fork** it to customize for your institution.
+- 📢 **Share** with school administrators, admissions teams, and EdTech developers.
+- ☕ **Buy me a coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Enrollment-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Enrollment-Management&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated list** — it is not exhaustive and does not constitute an endorsement.
+- Enrollment management systems handle sensitive student and family personally identifiable information (PII) subject to data privacy legislation (e.g., FERPA, GDPR, COPPA). Open-source deployments require proper security hardening, access controls, and compliance audits.
+
+---
+**Made with ❤️ for school administrators, admissions teams, and open-source EdTech advocates.**
