@@ -1,6 +1,6 @@
 # Awesome-Enrollment-Management
 
-## Top Enrollment Management Platforms Ecosystem
+### Top Enrollment Management Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on School Admissions, Student Enrollment, Applications, Waitlists, Registration & K-12 / Independent School Intake*
 **Last updated: September 2026**
