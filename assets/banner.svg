@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Dynamic Background Animated Elements (Low Opacity behind text) -->
+  <g opacity="0.25">
+    <!-- Floating Flow Pills / Wave background lines -->
+    <path d="M-50 220 Q 200 100, 450 240 T 950 180 T 1250 260" fill="none" stroke="#6366f1" stroke-width="3">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite"
+        values="M-50 220 Q 200 100, 450 240 T 950 180 T 1250 260;
+                M-50 180 Q 250 260, 500 140 T 900 240 T 1250 180;
+                M-50 220 Q 200 100, 450 240 T 950 180 T 1250 260"/>
+    </path>
+    <path d="M-50 120 Q 300 280, 650 120 T 1250 220" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="8 8">
+      <animate attributeName="d" dur="14s" repeatCount="indefinite"
+        values="M-50 120 Q 300 280, 650 120 T 1250 220;
+                M-50 240 Q 350 80, 600 260 T 1250 120;
+                M-50 120 Q 300 280, 650 120 T 1250 220"/>
+    </path>
+    <!-- Background Animated Pulse Orbs -->
+    <circle cx="150" cy="80" r="60" fill="#a855f7" filter="url(#glow)" opacity="0.3">
+      <animate attributeName="r" values="50;70;50" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="240" r="80" fill="#0ea5e9" filter="url(#glow)" opacity="0.3">
+      <animate attributeName="r" values="70;95;70" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Visual Foreground Card Accent Graphics (Positioned around borders to avoid title overlap) -->
+  <g opacity="0.85">
+    <!-- Mini Metric Badge Right -->
+    <rect x="940" y="45" width="200" height="64" rx="12" fill="url(#card-grad)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    <text x="960" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#94a3b8" font-weight="600">ENROLLMENT PIPELINE</text>
+    <text x="960" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#38bdf8" font-weight="700">100% Automated ⚡</text>
+
+    <!-- Mini Metric Badge Left -->
+    <rect x="60" y="215" width="210" height="64" rx="12" fill="url(#card-grad)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    <text x="80" y="242" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#94a3b8" font-weight="600">ECOSYSTEM SPECS</text>
+    <text x="80" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#c084fc" font-weight="700">SaaS &amp; Open-Source 🎓</text>
+  </g>
+
+  <!-- Main Title & Subtitle (Clear Foreground Layer) -->
+  <g text-anchor="middle">
+    <!-- Category Badge -->
+    <rect x="440" y="42" width="320" height="32" rx="16" fill="rgba(99, 102, 241, 0.25)" stroke="#6366f1" stroke-width="1"/>
+    <text x="600" y="63" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a5b4fc" font-weight="700" letter-spacing="1.5">CURATED EDTECH ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="600" y="135" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="url(#text-grad)" letter-spacing="-0.5">
+      Awesome Enrollment Management 🎓
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="175" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#cbd5e1" font-weight="400">
+      School Admissions, Student Intake, Lotteries, Waitlists &amp; Open Education ERPs
+    </text>
+
+    <!-- Dynamic Feature Pills -->
+    <g transform="translate(325, 215)">
+      <rect x="0" y="0" width="160" height="36" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+      <text x="80" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#38bdf8" font-weight="600">🏫 K-12 &amp; District</text>
+
+      <rect x="175" y="0" width="200" height="36" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+      <text x="275" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#818cf8" font-weight="600">🏛️ Higher Ed Admissions</text>
+
+      <rect x="390" y="0" width="160" height="36" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+      <text x="470" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#c084fc" font-weight="600">💻 Open-Source ERPs</text>
+    </g>
+  </g>
+</svg>
