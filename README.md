@@ -61,7 +61,7 @@ The sector exhibits **moderate fragmentation**: while enterprise giants like Pow
 ## 💻 Open-Source GitHub Projects
 
 > [!TIP]
-> Open-source options provide self-hosted control and data privacy. Repositories below are sorted in descending order by GitHub star counts. Click star badges to view stargazers.
+> Open-source options provide self-hosted control and data privacy. Repositories below are sorted in descending order by GitHub Stars_Counts. Click Stars_Badges to view stargazers.
 
 - **[ERPNext Education Module](https://github.com/frappe/erpnext)** [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
   *Comprehensive open-source ERP (Python/Frappe framework) with complete education domain modules for student admission, fee collection, course enrollment, and student portals.*
@@ -106,7 +106,7 @@ The sector exhibits **moderate fragmentation**: while enterprise giants like Pow
 
 Contributions are welcome! To add or update platforms and repositories:
 1. Fork this repository.
-2. Update `README.md` following the tabular format for SaaS or star badge format for Open Source.
+2. Update `README.md` following the tabular format for SaaS or Stars_Badge format for Open Source.
 3. Ensure pricing, valuation, and GitHub repository links are accurate and verified.
 4. Submit a Pull Request with a short explanation.
 
